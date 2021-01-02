@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practico Objetos</title>
+    <script src= "./Assets/Js/auxiliares.js" defer></script>
+    <script src= "./Assets/Js/clases.js" defer></script>
+    <script src="./Assets/Js/datos.js" defer></script>
+    <script src="./Assets/Js/codigo.js" defer></script>
+</head>
+<body>
+    <!--EJERCICIO 1---------------------------------------------------------------------------------------------------->
+
+    <div id="divEj1">
+
+        <h3>Ejercicio 1</h3>
+
+        <label for="txtNombreEj1">Ingrese nombre:<input type="text" id="txtNombreEj1"></label><br>
+        <label for="txtEdadEj1">Ingrese edad: <input type="text" id="txtEdadEj1"></label><br>
+        <label for="txtNacionalidadEj1">Ingrese nacionalidad: <input type="text" id="txtNacionalidadEj1"></label><br><br>
+        <input type="button" id="btnIngresarEj1" value="Ingresar">
+        <input type="button" id="btnTablaEj1" value="Armar Tabla">
+        <input type="button" id="btnMayoresEj1" value="Solo mayores"><br><br>
+
+        <table id="tblEj1" border="3">
+            <thead>
+                <tr><th>Nombre</th><th>Edad</th><th>Nacionalidad</th></tr>
+            </thead>
+            <tbody id="tbdEj1">
+
+            </tbody>
+
+        </table>
+        <hr>
+    </div>
+
+    <!--EJERCICIO 2------------------------------------------------------------------------------------------------------------>
+    
+    <div id="divEj2">
+
+        <h3>Ejercicio 2</h3>
+
+        <label for="txtNombreEj2">Ingrese nombre de la pelicula: <input type="text"id="txtNombreEj2"></label><br>
+        <label for="txtAnoEj2">ingrese año de la pelicula: <input type="text" id="txtAnoEj2"></label><br>
+        <label for="slcGeneroEj2">
+            seleccione el genero de la pelicula: 
+            <select id="slcGeneroEj2">
+            <option value="Terror">Terror</option>
+            <option value="Comedia">Comedia</option>
+            <option value="Accion">Accion</option>
+            <option value="Animada">Animada</option>
+            </select><br>
+        </label>
+        <label for="txtVotantesEj2">Ingrese cantidad de votantes: <input type="text" id="txtVotantesEj2"></label><br>
+        <label for="txtPuntajeEj2">Ingrese puntaje total: <input type="text" id="txtPuntajeEj2"></label><br>
+        <input type="button" id="btnAgregarEj2" value="Agregar"><br><br>
+        <input type="button" id="btnFiltrarEj2" value="Filtrar mejores"><br><br>
+
+        <p id="msgEj2"></p>
+
+        <table id="tblEj2" border="3">
+            <thead>
+                <tr><th>Pelicula</th><th>Año</th><th>Genero</th><th>Votantes</th><th>Puntaje</th><th>Promedio</th></tr>
+            </thead>
+            <tbody id="tbdEj2">
+
+            </tbody>
+
+        </table><br>
+
+        <label for="txtBuscadorEj2">Buscador <input type="text"id="txtBuscadorEj2"></label><br>
+        <input type="button" id="btnBuscadorEj2" value="Buscar"><br><br>
+
+        <p id="msgBuscadorEj2"></p>
+
+        <hr>
+
+    </div>
+
+    <!--EJERCICIO 3--------------------------------------------------------------------------------------------->
+
+        <div id="divEj3">
+
+            <h3>Ejercicio 3</h3>
+
+               <label for="txtTipoEj3">Ingrese tipo de guitarra: <input type="text"id="txtTipoEj3"></label><br>
+               <label for="txtCantidadEj3">Ingrese cantidad a vender: <input type="text"id="txtCantidadEj3"></label><br>
+               <input type="button" id="btnVenderEj3" value="Venta"><br><br>
+               <p id="msgEj3"></p>
+
+
+
+
+
+
+
+
+        </div>
+</body>
+</html>
